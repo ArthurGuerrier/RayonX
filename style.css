@@ -1,0 +1,75 @@
+.formulaire{
+    text-align: center;
+    font-family: 'Arial';
+}
+
+h1,h2,h3,p {
+    text-align: center;
+    font-family: 'Arial';
+}
+
+a {
+    color: gray;
+    font-family: 'Arial';
+    text-decoration: none;
+    padding-left: 2%;
+}
+
+a:hover {
+    opacity: 75%;
+    text-decoration: underline;
+}
+
+img{
+    height: 27%;
+    width: 27%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.images {
+    text-align: center;    
+}
+
+.menu-outils {
+    text-align: center;
+}
+
+.img-trottinette{
+    height: 22%;
+    width: 22%;
+}
+
+.img-marche{
+    height: 19%;
+    width: 19%;
+}
+
+@media screen and (max-width: 900px) {
+    .pas,.cinetique,.vitesse,.RayonX{
+        display: none;
+    }
+    .menu{
+        text-align: center;
+    }
+    .Tour_de_roue,.Vitesse,.compteur-pas,.energie-cinetique{
+        padding-top: 2%;
+    }
+    img{
+        height: 50%;
+        width: 50%;
+    }
+    .img-trottinette{
+        display: none;
+    }
+    .img-marche{
+        height: 40%;
+        width: 40%;
+    }
+    }
+
+@media screen and (min-width: 900px) {
+    .outils{
+        display: none;
+    }
+    }
